@@ -13,6 +13,8 @@ npmInstall
 ## Usage
 
 node server.js
+
+localhost:3000/jsc
 ```
 
 ## Contributing
