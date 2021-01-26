@@ -10,11 +10,12 @@ Use the package manager NPM to install.
 npmInstall
 ```
 
-## Usage
+## Start Server
 ```bash
 node server.js
 ```
 ## Usage
+```bash
 localhost:3000/jsc
 ```
 
