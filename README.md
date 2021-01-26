@@ -11,9 +11,10 @@ npmInstall
 ```
 
 ## Usage
-
+```bash
 node server.js
-
+```
+## Usage
 localhost:3000/jsc
 ```
 
