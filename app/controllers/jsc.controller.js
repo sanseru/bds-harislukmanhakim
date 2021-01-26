@@ -13,6 +13,13 @@ exports.findAll = (req, res) => {
             message:
               err.message || "Some error occurred while retrieving customers."
           });
-        else res.send(data);
+
+        else 
+        rspon = {
+          status : "success",
+          count  : "1",
+          data  : [data]
+        }
+        res.send(rspon);
       });
 };
